@@ -1,0 +1,199 @@
+body{
+  background-image: url("C:\Users\ARPIT\Desktop\Project\b3.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center ;
+    width: 100%;
+    height: auto;
+}
+
+.head{
+  background: transparent;
+  text-align: justify;
+  align-items: center;
+}
+.head img{
+  height:100px;
+  width:300px;
+}
+.head img:hover{
+  opacity: 0.8;
+}
+.image{
+  text-align:center;
+}
+.myimage{
+  opacity: 1;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border:2px solid rgb(191, 228, 228);
+}
+.myimage:hover{
+  opacity: 0.8;
+
+}
+.name{
+
+  font-family:"brush script mt" ;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+.name:hover{
+  color: rgb(137, 238, 223);
+}
+.shape img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  opacity: 0.8;
+  vertical-align: middle;
+}
+.shape{
+  text-align:center;
+  background:
+    linear-gradient(65deg , transparent 50%,rgba(148, 202, 243, 0.7) 50%) left no-repeat, 
+    linear-gradient(0deg , rgba(167, 211, 245, 0.7),rgba(86, 102, 245, 0.7)) 30px 0 no-repeat;
+  
+  background-size:30px 100%, 100% 100%;
+  width:200px; 
+  height:60px;
+  line-height:60px;
+  padding:0 20px;
+  color:white;
+  margin:20px auto;
+  position:relative;
+}
+.shape:hover{
+  background:
+    linear-gradient(65deg , transparent 50%,rgba(118, 194, 252, 0.7) 50%) left no-repeat, 
+    linear-gradient(0deg , rgba(73, 117, 150, 0.7),rgba(59, 77, 245, 0.7)) 30px 0 no-repeat;
+}
+a:link {
+  color:white;
+}
+.container a:hover{
+  color: crimson;
+}
+.contact{
+  float: left;
+    text-align:left;
+    width: 50%;
+}
+li{
+  display:inline-block;
+  margin: 10px 30px;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 10px;
+  border:1px inset paleturquoise;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: beige;
+
+}
+.social{
+  position: absolute;
+  float: left;
+    text-align:right;
+    width: 100%;
+}
+li:hover{
+  background:linear-gradient(45deg ,transparent 40%, rgba(136, 235, 248, 0.7),rgb(127, 127, 211));
+}
+
+.contact p{
+  font-family:'Times New Roman';
+  font-size:20px;
+  color:lightskyblue;
+  
+}
+.contact a{
+  color: whitesmoke;
+}
+.contact a:hover{
+color: rgb(49, 230, 175);
+}
+.contact img{
+  width: 35px;
+  height:35px;
+  border-radius: 50%;
+}
+a:visited {
+  color:white;
+ text-decoration: none;
+}
+.mail img{
+  height: 45px;
+  width: 45px;
+}
+@media screen and (max-width: 480px) {
+  .contact p{
+font-size: 15px;
+  }
+  .contact img{
+    width: 25px;
+  height:25px;
+  }
+  .social li{
+    margin: 10px 10px;
+    list-style: none;
+    font-size: 15px;
+    padding: 10px 10px;
+   
+  }
+}
+@media screen and (min-width:680px ) and (max-width:1024px){
+  .head img{
+    height:150px;
+    width:350px;
+  }
+  .myimage{
+    width: 350px;
+    height: 350px;
+    
+  }
+  .name{
+
+    font-size:60px;
+  }
+  .shape img{
+    width: 38px;
+    height: 38px;
+    
+  }
+  .shape{
+    
+    background:
+      linear-gradient(45deg , transparent 50%,rgba(148, 202, 243, 0.7) 50%) left no-repeat, 
+      linear-gradient(0deg , rgba(167, 211, 245, 0.7),rgba(86, 102, 245, 0.7)) 30px 0 no-repeat;
+    
+    
+    width:300px; 
+    height:90px;
+    line-height:90px;
+    padding:0 40px;
+    margin:40px auto;
+    
+  }
+  li{
+    font-size: 35px;
+    padding: 30px 30px;
+  }
+  .container a{
+    font-size: 35px;
+  }
+  .contact p{
+    font-size:35px;
+    
+  }
+  .contact img{
+    width: 45px;
+    height:45px;
+    
+  }
+}
+

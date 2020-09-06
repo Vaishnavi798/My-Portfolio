@@ -1,0 +1,327 @@
+body{
+    background-image: url("C:\Users\ARPIT\Desktop\Project\next.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center ;
+      width: 100%;
+     
+}
+ .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+ .nav li{
+      background: transparent;
+   font-family: 'Times New Roman';
+      float: left;
+      font-size: 30px;
+      border-right:1px solid rgb(153, 148, 148);
+
+  }
+  .nav li:last-child {
+    border-right: none;
+    
+  }
+  li a{
+    color: white;
+    font: bold;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+li a:hover{
+      color:turquoise;
+      font: larger;
+  }
+li a:hover:not(.active) {
+    background-color:transparent;
+  }
+  
+  .active {
+    background-color:rgb(112, 110, 110);
+  }
+  
+  .title h1{
+  font-family:"Brush script mt";  
+  font-size:40 px;
+    text-align: center;
+    color: lightyellow;
+    padding-top:40px;
+  }
+  .quote{
+    background-image:linear-gradient(50deg,rgb(196, 223, 221),rgb(29, 233, 199),rgb(207, 238, 240));
+    color: transparent;
+  -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 30px;
+    text-align: center;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: center;
+    width: 60%;
+  margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    text-align:center;
+  }
+  .column:hover{
+    transform: scale(1.1);
+  }
+  .card {
+    box-shadow:0 4px 8px 0 rgba(253, 252, 252, 0.644);
+    margin: 20px;
+  }
+  .text {
+    padding: 10px 16px;
+    text-align: center;
+  }
+  
+  .text::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  .card img{
+    height:200px;
+    width:200px;
+    text-align: justify;
+    background: transparent;
+  border-radius: 50%;
+    float: left;
+    
+  }
+  
+  .text p{
+    font-family:'Times New Roman';
+    font-size:20px;
+    color: rgb(230, 180, 230);
+    text-align:justify;
+  }
+  .quote:hover{
+    color: palevioletred;
+  }
+  .text p:hover{
+    color: rgb(71, 255, 246);
+  }
+  .heading h1{
+    color:rgb(148, 222, 235);
+    font-family:'Brush Script mt';
+    text-align: center;
+    font-size: 35px;
+    padding:40px;
+    width: 100%;
+    height: auto;
+  }
+  .points{
+    font-family:'Times New Roman';
+    font-size:20px;
+    color: rgb(230, 180, 230);
+    text-align:justify;
+    display: block;
+  }
+  .points li:hover{
+    color: rgb(218, 104, 142);
+  }
+  .simage{
+    float: left;
+    height:200px;
+    width: 200px;
+   
+  }
+  .simage img{
+    align:"left";
+    
+    -ms-transform: skewY(-20deg); 
+  transform: skewY(-20deg);
+  width: 100%;
+  
+  }
+  .logo{
+    position: absolute;
+    text-align:center;
+    width: 100%;
+  }
+  .logo li{
+    display:inline-block;
+  margin: 10px 30px;
+  list-style: none;
+  padding: 10px 10px;
+  }
+  .logo img{
+    height: 70px;
+    width: 70px;
+  }
+  .headd{
+text-align: center;
+font-size: 30px;
+color:rgb(148, 222, 235);
+    font-family:'Brush Script mt';
+padding: 30px;
+  }
+  .headd img{
+height:65px;
+width: 65px;
+background: transparent;
+
+  }
+  .headd h1:hover{
+    color: yellowgreen;
+  }
+  .school{
+    font-family:'Times New Roman';
+    font-size:20px;
+    color:rgb(230, 182, 230);
+    text-align:justify;
+    display: block;
+    list-style-type: none;
+  }
+  .school b{
+    color: rgba(217, 223, 224, 0.767);
+  }
+  
+.contents h1{
+  color: aquamarine;
+  font-size:20px;
+  font-family: georgia;
+}
+.contents p{
+  color:rgb(230, 182, 230);
+  font-family: 'Times New Roman';
+  font-size:20px;
+  text-align: justify;}
+
+p b{
+  color: rgba(217, 223, 224, 0.767);
+}
+
+.end{
+  text-align:center;
+  font-family:"Brush script mt";
+  font-size:30px;
+  color: rgb(203, 248, 233);
+}
+.end p:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+  .simage{
+display: none;
+}
+
+.column{
+  float: right;
+   width: 80%;
+}
+.heading h1{
+  padding-top: 45px;
+
+}
+.nav li{
+  font-size: 15px;
+}
+li a{
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  
+}
+
+  }
+@media screen and (min-width:620px) and (max-width:1024px){
+    
+  .column {
+    width: 100%;
+    padding: 35px 35px;
+    float: right;
+  }
+    .heading h1{
+      padding-top: 55px;
+    
+    }
+    .nav li{
+      font-size: 30px;
+    }
+    li a{
+      display: block;
+      text-align: center;
+      padding: 14px 18px;
+      text-decoration: none;
+      
+    }
+    .title h1{
+      font-size: 60px;
+      padding-top: 80px;
+    }
+    .quote{
+      font-size: 50px;
+    
+    }   
+    .card {
+      margin: 30px;
+    }
+    .text {
+      padding: 14px 16px;
+    }
+    .text p{
+      font-size: 30px;
+    }
+    .heading h1{
+      font-size: 60px;
+      padding-top: 70px;
+    }
+    .simage{
+      float:none;
+      height:300px;
+      width: 300px;
+     border-radius: 50%;
+    }
+    .simage img{
+      align:"center";
+      
+      -ms-transform: skewY(0deg); 
+    transform: skewY(0deg);
+    }
+    .text p{
+      font-size: 35px;
+    }
+    .points{
+      font-size:35px;
+    }
+    .logo{
+
+      margin: 20px 40px;
+      padding: 20px 20px;
+      }
+      .logo img{
+        height: 90px;
+        width: 90px;
+      }
+      .contents h1{
+        font-size: 45px;
+      }
+      .school li{
+        font-size: 35px;
+      }
+      .contents p{
+        font-size: 35px;
+      }
+      .end p{
+        font-size: 50px;
+      }
+}
